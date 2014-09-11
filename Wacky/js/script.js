@@ -38,6 +38,7 @@ console.log(comedyD);
 var romanceD=prompt("How many romance dvds do you have?");
 console.log(romanceD);
 
+
 var rockCd=prompt('How many rock cds do you have?');
 console.log(rockCd);
 var rapCd=prompt('How many rap cds do you have?');
@@ -51,5 +52,5 @@ var cdTypes=["Rock", "Rap", "HipHop", "country"];
 console.log(cdTypes);
 
 var average =( rockCd + rapCd + hipHop + countryCd )/4
-
+console.log(average);
 
