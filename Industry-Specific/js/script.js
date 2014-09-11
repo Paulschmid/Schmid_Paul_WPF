@@ -26,13 +26,15 @@ var twoYears= b / time;
 console.log(year);
 console.log(twoYears);
 
-alert(" Your "+vehicleYear+vehicleMake+vehicleModel+" gets "+year+" oil changes per year and "+twoYears+" every two years");
+alert(" Your "+vehicleYear+vehicleMake+vehicleModel+" gets "+year+" oil changes in one year and "+twoYears+" every two years");
 
 
 var amount=quarts*year;
 var amountTwo=quarts*twoYears;
 console.log(amount);
 console.log(amountTwo);
+
+alert( " Your "+vehicleYear+vehicleMake+vehicleModel+" will use "+amount+" in one year and "+amountTwo+" every two years! ")
 
 
 
