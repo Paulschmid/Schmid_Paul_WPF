@@ -39,7 +39,8 @@ var romanceD=prompt("How many romance dvds do you have?");
 console.log(romanceD);
 
 var average=(horrorD + actionD + comedyD + romanceD)/4;
-console.log(average)
+console.log(average);
+alert("The average of dvds is "+average+"!");
 
 var rockCd=prompt('How many rock cds do you have?');
 console.log(rockCd);
@@ -56,4 +57,5 @@ console.log(cdTypes);
 var averageC =( rockCd + rapCd + hipHop + countryCd )/4
 console.log(averageC);
 
-Alert("The average of cds is "+averageC+" !")
+alert("The average of cds is "+averageC+" !");
+
