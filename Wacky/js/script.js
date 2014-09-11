@@ -27,3 +27,5 @@ console.log(dvdTypes);
 
 var cdTypes=["Rock", "Rap", "HipHop", "country"];
 console.log(cdTypes);
+
+alert("Now I would like to know the amount of each type that you have");
