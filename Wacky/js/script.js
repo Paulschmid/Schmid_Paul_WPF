@@ -17,10 +17,13 @@ alert(" I would like to know how many cds and dvds that you have?");
 
 var dvds=prompt ("how many dvds do you have?");
 console.log(dvds);
-var cds=prompt ("how many dvds do you have?");
+var cds=prompt ("how many cds do you have?");
 console.log(cds);
 
 alert(" Off the info given you have "+dvds+" dvds and "+cds+" cds!");
 
 var dvdTypes=["horror", "action", "comedy", "romance"];
-var horror="horrorD"
+console.log(dvdTypes);
+
+var cdTypes=["Rock", "Rap", "HipHop", "country"];
+console.log(cdTypes);
