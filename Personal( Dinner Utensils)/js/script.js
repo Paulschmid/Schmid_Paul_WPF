@@ -36,9 +36,9 @@ var spoonUt= a;
 var plateUt = a;
 var bowlUt = a;
 
-var childrenUt= (forkUt + spoonUt + plateUt + bowlUt)*2;
+var childrenUt= (forkUt + spoonUt + plateUt + bowlUt)*children;
 console.log(childrenUt)
-alert( "With Children not having a knife the amount of utensils needed is "+childrenUt+"! ")
+alert( "With Children not having a knife the amount of utensils needed for the children is "+childrenUt+"! ")
 
 
 
