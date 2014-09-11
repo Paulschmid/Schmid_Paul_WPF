@@ -28,8 +28,11 @@ console.log(twoYears);
 
 alert(" Your "+vehicleYear+vehicleMake+vehicleModel+" gets "+year+" oil changes per year and "+twoYears+" every two years");
 
-var amount=quarts*time
-control.log(amount);
+
+var amount=quarts*year;
+var amountTwo=quarts*twoYears;
+console.log(amount);
+console.log(amountTwo);
 
 
 
