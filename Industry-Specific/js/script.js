@@ -61,6 +61,7 @@ alert("every 60000 miles you will have "+low+" oil changes! This means you will 
 
 console.log ("What year of vehicle do you own?")
 console.log("What make vehicle do you own?")
+console.log("what model vehicle do you own?")
 console.log(" Now lets see how many quarts your "+vehicleYear+vehicleMake+vehicleModel+" should use over time!")
 console.log(" Your "+vehicleYear+vehicleMake+vehicleModel+" gets "+year+" oil changes in one year and "+twoYears+" every two years")
 console.log(" Your "+vehicleYear+vehicleMake+vehicleModel+" will use "+amount+" quarts in one year and "+amountTwo+" quarts every two years!")
