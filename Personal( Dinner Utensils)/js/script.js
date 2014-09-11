@@ -42,6 +42,7 @@ alert( "With Children not having a knife the amount of utensils needed for the c
 
 console.log("May I have your Name:")
 console.log("Hello "+name+"! Lets see how many people you have!")
+console.log("How many adults are eating")
 
 
 
