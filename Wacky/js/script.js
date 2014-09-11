@@ -38,6 +38,7 @@ console.log(comedyD);
 var romanceD=prompt("How many romance dvds do you have?");
 console.log(romanceD);
 
+var average=(horrorD + actionD + comedyD + romanceD);
 
 var rockCd=prompt('How many rock cds do you have?');
 console.log(rockCd);
