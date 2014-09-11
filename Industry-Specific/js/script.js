@@ -58,8 +58,9 @@ alert(" If going by mileage your "+vehicleYear+vehicleMake+vehicleModel+" will g
 var total= low * quarts;
 
 alert("every 60000 miles you will have "+low+" oil changes! This means you will use "+total+" quarts of oil. ")
-
-
+console.log(" Your "+vehicleYear+vehicleMake+vehicleModel+" gets "+year+" oil changes in one year and "+twoYears+" every two years")
+console.log(" Your "+vehicleYear+vehicleMake+vehicleModel+" will use "+amount+" quarts in one year and "+amountTwo+" quarts every two years!")
+console.log("If going by mileage your "+vehicleYear+vehicleMake+vehicleModel+" will get an oil change every "+miles+"miles!")
 
 
 
