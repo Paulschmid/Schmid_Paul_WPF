@@ -25,14 +25,13 @@ alert(" Off the info given you have "+dvds+" dvds and "+cds+" cds!");
 var dvdTypes=["horror", "action", "comedy", "romance"];
 console.log(dvdTypes);
 
-var cdTypes=["Rock", "Rap", "HipHop", "country"];
-console.log(cdTypes);
+
 
 alert("Now I would like to know the amount of each type that you have");
 
 var horrorD=prompt("How many horror dvds do you have?");
 console.log(horrorD);
-var actionD=prompt("How man action dvds do you have?");
+var actionD=prompt("How many action dvds do you have?");
 console.log(actionD);
 var comedyD=prompt("How any comedy dvds do you have?");
 console.log(comedyD);
@@ -43,6 +42,12 @@ var rockCd=prompt('How many rock cds do you have?');
 console.log(rockCd);
 var rapCd=prompt('How many rap cds do you have?');
 console.log(rapCd);
+var hipHop=prompt("How many hiphop cds do you have?");
+console.log(hipHop);
+var countryCd=prompt("How many country cds do you have?");
+console.log(countryCd);
 
+var cdTypes=["Rock", "Rap", "HipHop", "country"];
+console.log(cdTypes);
 
 
