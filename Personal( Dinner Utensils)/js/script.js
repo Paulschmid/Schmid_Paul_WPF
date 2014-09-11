@@ -41,6 +41,7 @@ console.log(childrenUt)
 alert( "With Children not having a knife the amount of utensils needed for the children is "+childrenUt+"! ")
 
 console.log("May I have your Name:")
+console.log("Hello "+name+"! Lets see how many people you have!")
 
 
 
