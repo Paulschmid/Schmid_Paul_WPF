@@ -50,4 +50,6 @@ console.log(countryCd);
 var cdTypes=["Rock", "Rap", "HipHop", "country"];
 console.log(cdTypes);
 
+var average =( rockCd + rapCd + hipHop + countryCd )/4
+
 

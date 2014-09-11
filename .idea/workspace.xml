@@ -38,8 +38,8 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expression/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1140">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1140">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wacky/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86587185" vertical-offset="214" max-vertical-offset="885">
+            <state vertical-scroll-proportion="0.86587185" vertical-offset="214" max-vertical-offset="915">
               <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -687,15 +687,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expression/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="469" max-vertical-offset="1140">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1140">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86587185" vertical-offset="214" max-vertical-offset="885">
+        <state vertical-scroll-proportion="0.86587185" vertical-offset="214" max-vertical-offset="915">
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
