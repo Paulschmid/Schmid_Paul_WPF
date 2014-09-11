@@ -18,6 +18,14 @@ console.log(quarts);
 time=prompt("In the maintenance book what is the time period between oil changes?");
 console.log(time);
 
+var a = 12
+var b = 24
+
+var year= a / time;
+var twoYears= b / time;
+console.log(year);
+
+
 
 
 
