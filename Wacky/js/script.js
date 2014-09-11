@@ -29,3 +29,12 @@ var cdTypes=["Rock", "Rap", "HipHop", "country"];
 console.log(cdTypes);
 
 alert("Now I would like to know the amount of each type that you have");
+
+var horrorD=prompt("How many horror dvds do you have?");
+console.log(horrorD);
+var actionD=prompt("How man action dvds do you have?");
+console.log(actionD);
+var comedyD=prompt("How any comedy dvds do you have?");
+console.log(comedyD);
+var romanceD=prompt("How many romance dvds do you have?");
+console.log(romanceD);
