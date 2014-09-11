@@ -36,7 +36,10 @@ console.log(amountTwo);
 
 alert( " Your "+vehicleYear+vehicleMake+vehicleModel+" will use "+amount+" in one year and "+amountTwo+" every two years! ")
 
+alert(" Some vehicles also can go by the mileage! Lets see how may quarts you use, if the going by mileage");
 
+miles=prompt(" Per your maintenance book how many miles are suppose to go between oil change?");
+console.log(miles);
 
 
 
