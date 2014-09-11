@@ -23,3 +23,4 @@ console.log(cds);
 alert(" Off the info given you have "+dvds+" dvds and "+cds+" cds!");
 
 var dvdTypes=["horror", "action", "comedy", "romance"];
+var horror="horrorD"
