@@ -15,7 +15,7 @@ alert(" Now lets see how many quarts your "+vehicleYear+vehicleMake+vehicleModel
 
 quarts=prompt("How many quarts of oil does your "+vehicleYear+vehicleMake+vehicleModel+" use per oilchange?");
 console.log(quarts);
-time=prompt("In the maintenance book what is the time period between oil changes?");
+time=prompt("In the maintenance book what is the number of months between oil changes?");
 console.log(time);
 
 var a = 12
@@ -24,6 +24,8 @@ var b = 24
 var year= a / time;
 var twoYears= b / time;
 console.log(year);
+console.log(twoYears);
+
 
 
 
