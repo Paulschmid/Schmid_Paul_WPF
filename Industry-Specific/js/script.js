@@ -8,13 +8,15 @@ vehicleYear=prompt("What year of vehicle do you own?");
 console.log(vehicleYear);
 vehicleMake=prompt("What make vehicle do you own?");
 console. log (vehicleMake);
+vehicleModel=prompt("What model vehicle do you own?");
+console.log(vehicleModel);
 
+alert(" Now lets see how many quarts your "+vehicleYear+vehicleMake+vehicleModel+" should use over time!");
 
-alert(" Now lets see how many quarts your "+vehicle+" should use over time!");
-
-quarts=prompt("How many quarts of oil does your "+vehicle+" use per oilchange?");
+quarts=prompt("How many quarts of oil does your "+vehicleYear+vehicleMake+vehicleModel+" use per oilchange?");
 console.log(quarts);
 time=prompt("In the maintenance book what is the time period between oil changes?");
+console.log(time);
 
 
 
