@@ -40,6 +40,7 @@ var childrenUt= (forkUt + spoonUt + plateUt + bowlUt)*children;
 console.log(childrenUt)
 alert( "With Children not having a knife the amount of utensils needed for the children is "+childrenUt+"! ")
 
+console.log("May I have your Name:")
 
 
 
