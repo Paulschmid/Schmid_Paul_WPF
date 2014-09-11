@@ -42,8 +42,8 @@ miles=prompt(" Per your maintenance book how many miles are suppose to go betwee
 console.log(miles);
 
 var a = 60000
-var b = 80000
-var c = 120000
+var b = 120000
+var c = 180000
 
 var low= a /miles;
 var medium= b /miles;
@@ -55,7 +55,9 @@ console.log(high);
 
 alert(" If going by mileage your "+vehicleYear+vehicleMake+vehicleModel+" will get an oil change every "+miles+"miles!");
 
+var total= low * quarts;
 
+alert("every 60000 miles you will have "+low+" oil changes! This means you will use "+total+" quarts of oil. ")
 
 
 
