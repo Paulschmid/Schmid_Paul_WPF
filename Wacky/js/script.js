@@ -13,11 +13,13 @@ var last=lastN;
 fullName=first + " " +last;
 console.log(fullName);
 
-alert(" I would like to know how many cds and dvds that you have?")
+alert(" I would like to know how many cds and dvds that you have?");
 
 var dvds=prompt ("how many dvds do you have?");
 console.log(dvds);
 var cds=prompt ("how many dvds do you have?");
 console.log(cds);
 
-alert(" Off the info given you have "+dvds+" dvds and "+cds+"!")
+alert(" Off the info given you have "+dvds+" dvds and "+cds+" cds!");
+
+var dvdTypes=["horror", "action", "comedy", "romance"];
