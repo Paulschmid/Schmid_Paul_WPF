@@ -1,9 +1,11 @@
 // paul schmid
 //09/10//14
-//Industry-Specific
+//Industry-Sp//Papaul
+//paul
 
-//How many quarts of oil will you use?
-
+//paul schmid
+//09/11/14
+//expressions
 vehicleYear=prompt("What year of vehicle do you own?");
 console.log(vehicleYear);
 vehicleMake=prompt("What make vehicle do you own?");

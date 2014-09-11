@@ -1,6 +1,6 @@
 //paul schmid
 // 9/11/2014/
-// Wacky dvds,movies,cds**
+// Expressions**
 
  var firstN=prompt ("What is your first name?");
 console.log(firstN);
