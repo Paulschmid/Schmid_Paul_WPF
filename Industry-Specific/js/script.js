@@ -55,10 +55,13 @@ console.log(high);
 
 alert(" If going by mileage your "+vehicleYear+vehicleMake+vehicleModel+" will get an oil change every "+miles+"miles!");
 
-var total= low * quarts;
+var totalA= low * quarts;
+var totalB=medium*quarts;
+var totalC=high*quarts;
 
-alert("every 60000 miles you will have "+low+" oil changes! This means you will use "+total+" quarts of oil. ")
-
+alert("By 60000 miles you will have "+low+" oil changes! This means you will use "+totalA+" quarts of oil. ")
+alert("By 120000 miles you will have "+medium+" oil changes! This means you will use "+totalB+" quarts of oil")
+alert("by 180000 miles you willhave "+high+" oil changes! This means you will use "+totalC+" quarts of oil")
 console.log ("What year of vehicle do you own?")
 console.log("What make vehicle do you own?")
 console.log("what model vehicle do you own?")
