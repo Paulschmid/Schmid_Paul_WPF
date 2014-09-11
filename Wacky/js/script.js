@@ -1,15 +1,23 @@
 //paul schmid
 // 9/11/2014/
-// Wacky Weight**
+// Wacky dvds,movies,cds**
 
- var first=prompt ("What is your first name?");
-console.log(first);
+ var firstN=prompt ("What is your first name?");
+console.log(firstN);
 
-var last=prompt ("What is your last name?");
-console.log(last);
+var lastN=prompt ("What is your last name?");
+console.log(lastN);
 
+var first=firstN;
+var last=lastN;
+fullName=first + " " +last;
+console.log(fullName);
 
-alert(" Welcome "+first+last+"! I would like to help you with your weight! What weight will you be plus or minus over time?");
+alert(" I would like to know how many cds and dvds that you have?")
 
-var age=prompt(" How old are you ");
-console.log(age);
+var dvds=prompt ("how many dvds do you have?");
+console.log(dvds);
+var cds=prompt ("how many dvds do you have?");
+console.log(cds);
+
+alert(" Off the info given you have "+dvds+" dvds and "+cds+"!")
