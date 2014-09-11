@@ -34,12 +34,28 @@ var amountTwo=quarts*twoYears;
 console.log(amount);
 console.log(amountTwo);
 
-alert( " Your "+vehicleYear+vehicleMake+vehicleModel+" will use "+amount+" in one year and "+amountTwo+" every two years! ")
+alert( " Your "+vehicleYear+vehicleMake+vehicleModel+" will use "+amount+" quarts in one year and "+amountTwo+" quarts every two years! ")
 
-alert(" Some vehicles also can go by the mileage! Lets see how may quarts you use, if the going by mileage");
+alert(" Some vehicles also can go by the mileage! Lets see how many quarts you use, if going by the mileage");
 
-miles=prompt(" Per your maintenance book how many miles are suppose to go between oil change?");
+miles=prompt(" Per your maintenance book how many miles are suppose to go between oil changes?");
 console.log(miles);
+
+var a = 60000
+var b = 80000
+var c = 120000
+
+var low= a /miles;
+var medium= b /miles;
+var high= c / miles;
+
+console.log(low);
+console.log(medium);
+console.log(high);
+
+alert(" If going by mileage your "+vehicleYear+vehicleMake+vehicleModel+" will get an oil change every "+miles+"miles!");
+
+
 
 
 
