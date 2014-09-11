@@ -49,3 +49,23 @@ var lastName = "schmid";
 var fullName = firstName + " " + lastName;
 
 console.log(fullName);
+
+//Casting
+
+var stringVar = "6";
+var result = 7 + Number(stringVar);
+//console.log(result);
+
+var areaCode = 407;
+var firstPart = 203;
+var secPart = 4529;
+
+var phoneNo = "(" + String(areaCode)+ ")" + String(firstPart) + "-" + String(secPart);
+console.log(phoneNo)
+
+// Expressions - Assignment Operators
+
+var a = 3;
+a += 4;//a = a + 4 works with all math
+
+console.log(a);
