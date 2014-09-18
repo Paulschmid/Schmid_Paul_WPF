@@ -17,7 +17,7 @@ alert(" This movie requires that all viewers be over the age of 17 or accompanie
     var adultAge = oldTimer;
     var noInput = "";
 
-//if child is over the age of 17; they are eligible for entry.
+//if no input is put in kidAge prompt will be activated!
 if (kidAge == noInput)  {
     var noInput = prompt(" Make sure to input your age?");
     console.log(noInput);
