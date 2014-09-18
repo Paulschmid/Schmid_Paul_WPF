@@ -27,11 +27,11 @@ if (kidAge == noInput)  {
                      alert( "Enjoy the movie!");
                          console.log("Enjoy the movie!");
 }
+// if kidAge is not over 17 age is not permitted adult is required
         else {
     alert(" You will need an adult to view this movie");
     console.log(" You will need an adult to see this movie ");
-    //performed if condition is false
-    //console.log("You will need an adult in order to see this movie");
+
 
 
     var oldTimer = adultAge;
