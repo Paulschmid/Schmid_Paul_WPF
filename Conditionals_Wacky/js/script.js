@@ -33,7 +33,7 @@ if (kidAge == noInput)  {
     console.log(" You will need an adult to see this movie ");
 
 
-
+//prompt to find out age of adult
     var oldTimer = adultAge;
 
     var oldTimer = prompt(" What age is the adult present?");
