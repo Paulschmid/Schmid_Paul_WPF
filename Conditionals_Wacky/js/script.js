@@ -12,6 +12,7 @@ alert(" This movie requires that all viewers be over the age of 17 or accompanie
 
 
     var minAge= 17;
+    var adultMin=18
     var childAge = kidAge;
     var adultAge = oldTimer;
     var noInput = "";
@@ -48,18 +49,9 @@ if (kidAge == noInput)  {
         alert("With the company of this adult! You are allowed to view the movie!");
         console.log("Adult and child are allowed to see the movie!");
     }
+    if (oldTimer < adultMin) {
+        alert( "Adult must be over the age of 18");
+}
 }
 
 
-
-
-
-//function required == "" {
-    //var childAge = "kidAge";
- //   if (childAge == "") {
-      //  alert("Please input a Value")
-    //    return false;
-
-   // else {
-  //      alert('Code has been accept');
-   // }
