@@ -55,5 +55,6 @@ if (kidAge == noInput)  {
         alert( "Adult must be over the age of 18");
 }
 }
-
+var good= ( kidAge<minAge && oldTimer>adultMin);
+console.log(good);
 
