@@ -50,6 +50,7 @@ if (kidAge == noInput)  {
         alert("With the company of this adult! You are allowed to view the movie!");
         console.log("Adult and child are allowed to see the movie!");
     }
+    //alert to notify that adult must be over the age of 18
     if (oldTimer < adultMin) {
         alert( "Adult must be over the age of 18");
 }
