@@ -38,6 +38,7 @@ if (kidAge == noInput)  {
 
     var oldTimer = prompt(" What age is the adult present?");
     console.log(oldTimer);
+    //prompt if no input is added to age of adult prompt!
     if (oldTimer == noInput) {
         var noInput = prompt("Make sure to input adults age!");
         console.log(noInput);
