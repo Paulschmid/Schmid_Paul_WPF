@@ -23,7 +23,7 @@ if (kidAge == noInput)  {
     console.log(noInput);
 }else if
         (childAge >= minAge){
-            //code in position is true
+            //If kidAge is over 17, entrance allowed
                      alert( "Enjoy the movie!");
                          console.log("Enjoy the movie!");
 }
