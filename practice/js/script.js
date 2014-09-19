@@ -1,34 +1,29 @@
-//paul schmid
-//9/16/2014
-//conditionals
+alert(" This game requires 18 yrs or older to buy!");
 
-
-alert(" This movie requires that all viewers be over the age of 17 or accompanied by an adult.");
-
-    var kidAge  = prompt("How old are you?");
-      console.log(kidAge);
+var kidAge  = prompt("How old are you?");
+console.log(kidAge);
 
 
 
 
-    var minAge= 17;
-    var adultMin=18
-    var childAge = kidAge;
-    var adultAge = oldTimer;
-    var noInput = "";
+var minAge= 17;
+var adultMin=18
+var childAge = kidAge;
+var adultAge = oldTimer;
+var noInput = "";
 
 //if no input is put in kidAge prompt will be activated!
 if (kidAge == noInput)  {
     var noInput = prompt(" Make sure to input your age?");
     console.log(noInput);
 }else if
-        (childAge >= minAge){
-            //If kidAge is over 17, entrance allowed
-                     alert( "Enjoy the movie!");
-                         console.log("Enjoy the movie!");
+    (childAge >= minAge){
+    //If kidAge is over 17, entrance allowed
+    alert( "Enjoy the movie!");
+    console.log("Enjoy the movie!");
 }
 // if kidAge is not over 17 age is not permitted adult is required
-        else {
+else {
     alert(" You will need an adult to view this movie");
     console.log(" You will need an adult to see this movie ");
 
@@ -45,7 +40,7 @@ if (kidAge == noInput)  {
     } else if
         (oldTimer <= minAge);
 
-     else {
+    else {
         //child and adult are allowed to see the movie!
         alert("With the company of this adult! You are allowed to view the movie!");
         console.log("Adult and child are allowed to see the movie!");
@@ -53,8 +48,9 @@ if (kidAge == noInput)  {
     //alert to notify that adult must be over the age of 18
     if (oldTimer < adultMin) {
         alert( "Adult must be over the age of 18");
-}
+    }
 }
 var good= ( kidAge>minAge && oldTimer>adultMin);
 console.log(good);
+
 
