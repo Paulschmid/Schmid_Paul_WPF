@@ -30,12 +30,12 @@ else {
     console.log(" To purchase find an parent or guardian ");
 }
 //Asking adult for age
- var adultA = adultB;
+ var adultB = adultA;
 
 var adultB = prompt("What is the age of adult purchaser");
 console.log(adultB);
 //prompt if no input is added to age!
-if (adultA == noInput) {
+if (adultB == noInput) {
     var noInput = prompt("Adults age not inserted redo age!");
     console.log(noInput);
 } else if
