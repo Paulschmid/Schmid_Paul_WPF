@@ -5,4 +5,5 @@
 alert(" This game requires 18 yrs or older to buy!");
 
 
-
+var ageA  = prompt("How old is purchaser");
+console.log(ageA);
