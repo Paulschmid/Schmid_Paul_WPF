@@ -26,6 +26,6 @@ if (ageA == noInput)  {
 }
 // You must be over 18 this will make them get a person over the age!
 else {
-    alert(" You will need an adult to view this movie");
-    console.log(" You will need an adult to see this movie ");
+    alert(" You are not over 18! To purchase get an adult!");
+    console.log(" To purchase find an parent or guardian ");
 }
