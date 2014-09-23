@@ -23,7 +23,6 @@ var total = calcInches(feet, a, inches);//invoking
 console.log(total);
 console.log("---total height inches---");
 alert("you are "+total+" inches ");
-
  squaredA (total, total);
 function squaredA (a, b) {
     var squared = a * b;
@@ -35,7 +34,17 @@ function squaredA (a, b) {
     console.log("---prompt for weight---");
 
 alert("Calculating your  BMI at "+total+"inches and "+weight+"lbs!");
-squared
+
+
+var squared = a;
+var calcBmi = function( weight,a){//defining
+    //code to run
+
+    var bmi= weight / a;
+    return bmi;
+}
+var bmiTotal = calcBmi(weight, squared);//invoking
+console.log(bmiTotal);
 
 
 
