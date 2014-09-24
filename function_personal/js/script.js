@@ -17,36 +17,40 @@ var calcInches = function( a,feet,inches) {//defining
 
     var height = feet * a + +inches;
     return height;
-
 }
-var total = calcInches(feet, a, inches);//invoking
+ var total = calcInches(feet, a, inches);//invoking
 console.log(total);
 console.log("---total height inches---");
-alert("you are "+total+" inches ");
- squaredA (total, total);
-function squaredA (a, b) {
-    var squared = a * b;
-    console.log(squared);
+
+
+
+heightB (total, total);
+function heightB (a, b) {
+    var heightC = a * b;
+    console.log(heightC);
     console.log("---squared height---");
 }
+alert("you are "+total+" inches ");
+
     var weight = prompt(" Now that we have your height we need your weight.Please input your weight here");
     console.log(weight);
     console.log("---prompt for weight---");
 
+
 alert("Calculating your  BMI at "+total+"inches and "+weight+"lbs!");
 
-
-var squared = a;
-var calcBmi = function( weight,a){//defining
-    //code to run
-
-    var bmi= weight / a;
-    return bmi;
+function calc(){
+    var heightC =total*total;
+    var w=weight;
+    var mixWnH = weight / heightC;
+    console.log(mixWnH);
 }
-var bmiTotal = calcBmi(weight, squared);//invoking
-console.log(bmiTotal);
-
-
-
-
-
+calc()
+var heightZ =total*total;
+var mixWnH = weight/heightZ;
+calcBmi(mixWnH,703);
+function calcBmi(w, h) {
+    var area = w * h;
+    console.log(area);
+    alert("You have a bmi of " + area + "! Round to to the nearest hundredths");
+}
