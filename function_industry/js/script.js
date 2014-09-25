@@ -20,9 +20,9 @@ if (kidAge == noInput)  {
     var noInput = prompt(" Make sure to input your child's age?");
     console.log(noInput);
 }else if
-    (childAge >= minAge && childAge<=maxAge){
+    (kidAge >= minAge && kidAge<=maxAge){
     //If kidAge is over 17, entrance allowed
-    alert( "Your child meets the age requirement for this school!");
+    alert( "Your child meets the age requirement for this school! Welcome to our school!");
     console.log("Welcome to our school");
 }
 
