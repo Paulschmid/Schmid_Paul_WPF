@@ -50,7 +50,7 @@ var heightZ =total*total;
 var mixWnH = weight/heightZ;
 calcBmi(mixWnH,703);
 function calcBmi(w, h) {
-    var area = w * h;
-    console.log(area);
-    alert("You have a bmi of " + area + "! Round to to the nearest hundredths");
+    var bmiActual = w * h;
+    console.log(bmiActual);
+    alert("You have a bmi of " + bmiActual + "! Round to to the nearest hundredths");
 }
