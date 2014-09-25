@@ -25,3 +25,10 @@ if (kidAge == noInput)  {
     alert( "Your child meets the age requirement for this school!");
     console.log("Welcome to our school");
 }
+
+//kidAge is not over 17 age is not permitted adult is required
+else {
+    alert(" your child does not meet age required for elementary school.");
+    console.log(" Age not met! ");
+}
+
