@@ -12,7 +12,6 @@ console.log(kidAge);
 
 var minAge= 5;
 var maxAge=10;
-
 var noInput = "";
 
 //if no input is put in kidAge prompt will be activated!
